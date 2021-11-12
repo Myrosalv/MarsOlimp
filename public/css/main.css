@@ -194,7 +194,7 @@ h3 {
 #hero-mobile {
   display: none;
   background: url("../img/bg-header-mobile.png") no-repeat center bottom/cover;
-  height: 320px;
+  height: 420px;
 }
 
 #starship-mobile {
@@ -216,7 +216,7 @@ h3 {
 }
 
 .layer-4 {
-  background-image: url("../img/layer4.png");
+  background-image: url("/img/layer4.png");
 }
 
 @media only screen and (max-width: 768px) {
@@ -249,6 +249,8 @@ h3 {
   color: #f1f1f1;
   width: 100%;
 }
+
+
 
 .cta {
   color: white;
