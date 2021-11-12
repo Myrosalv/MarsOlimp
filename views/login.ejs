@@ -12,18 +12,13 @@
 <body>
     <div class="main">
         <h1>Sign in</h1>
-        <% if (messages) { %>
-            <p>
-                <%= messages.error %>
-            </p>
-            <% } %>
-                <form action="/login" method="POST">
-                    <input type="email" name="email" placeholder="myroslav.kogut2007@gmail.com" />
-                    <input type="password" name="password" placeholder="* * * * * *" />
-                    <button>SIGN IN</button>
-                    <br>
-                    <!-- <p><small>Don`t have account <a href="/auth/register">Register</a></small></p> -->
-                </form>
+        <form action="/login" method="POST">
+            <input type="email" name="email" placeholder="myroslav.kogut2007@gmail.com" />
+            <input type="password" name="password" placeholder="* * * * * *" />
+            <button>SIGN IN</button>
+            <br>
+            <p><small>Don`t have account <a href="/auth/register">Register</a></small></p>
+        </form>
     </div>
 </body>
 
